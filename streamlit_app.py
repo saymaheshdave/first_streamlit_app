@@ -35,5 +35,4 @@ fruityvice_normalized = pd.json_normalize(fruityvice_response.json())
 # Priting normalized data into table format
 st.dataframe(fruityvice_normalized)
 
-requirements.txt
 
