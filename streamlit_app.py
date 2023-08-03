@@ -44,7 +44,6 @@ except URLError as e:
 
 
 # snowflake.connector needs to be fixed since the code was previously incorrect
-my_cnx = snowflake.connector.connect(**st.secrets["snowflake"])
 st.header("The fruit load list contains:")
 #Snowflake-related functions
 def get_fruit_load_list():
